@@ -26,4 +26,4 @@ if __name__ == '__main__':
     parser.add_argument('--number_fps', type=int, default=10,
                         help='Amount of fingerprints to generate')
     args = parser.parse_args()
-    generate(args.energy, args.n)
+    generate(args.energy, args.number_fps)
