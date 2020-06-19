@@ -23,3 +23,7 @@ In order to use the model for generating fingerprints with a certain binding ene
 ```
 python app.py --energy -9 --number_fps 100
 ```
+
+## Note
+
+As the training was based on compounds with binding energy property ranged from 0 to -14, model is not expected to generate coherent results outside those boundaries
